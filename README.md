@@ -1,5 +1,7 @@
 A decimal-time clock showing the Sun, Earth, and Moon.
 
+[main site](http://keclock.tk/#nowait) | ['new tab' page version](http://keclock.tk/#nowait) | On chrome you'll need to install [a plugin](https://chrome.google.com/webstore/detail/new-tab-redirect/icpgjfneehieebagbmdbhnlpiopdcmna) first.
+
 Forked from [clayzermk1][1] and inspired by the unit [刻][2](ke) from the Chinese decimal time system of the Shang dynasty / Bronze Age.
 
 A 刻 is a hundredth of a day, and (in some of the calendars) a 分 (fen) forms one hundredth of a 刻.
