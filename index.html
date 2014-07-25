@@ -154,8 +154,7 @@ svg.append("path")
   .attr("transform", "translate(0," + -radii.earthOrbit + ")")
   .style("fill", "rgba(150, 150, 150, 0.75)");
 
-// Update the clock every second
-setInterval(function () {
+var UpdateClock = function () {
   now = new Date();
   
   var solarFraction = d3.time.hours(d3.time.year.floor(now), now).length / d3.time.hours(d3.time.year.floor(now), d3.time.year.ceil(now)).length,
@@ -205,6 +204,10 @@ setInterval(function () {
       
     };
   });
-}, 8640);
+}
+
+// Update the clock every 分
+if (location.hash === "#nowait") UpdateClock()
+setInterval(UpdateClock, 8640);
  
 </script>
