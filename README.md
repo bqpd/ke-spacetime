@@ -1,6 +1,10 @@
 A decimal-time clock showing the Sun, Earth, and Moon.
 
-Inspired by [clayzermk1][1] and the Bronze Age / Shang dynasty Chinese decimal time system, where a [刻][2](ke) is a hundredth of a day, and (in some of the calendars) a 分 (fen) forms one hundredth of a 刻.
+Forked from [clayzermk1][1] and inspired by the unit [刻][2](ke) from the Chinese decimal time system of the Shang dynasty / Bronze Age.
+
+A 刻 is a hundredth of a day, and (in some of the calendars) a 分 (fen) forms one hundredth of a 刻.
+
+From left to right the displays are: percent of the year completed, 刻, 分, percent of the month completed.
 
 MIT License
 
