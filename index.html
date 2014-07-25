@@ -164,7 +164,8 @@ setInterval(function () {
   solarTime.text(Math.floor(100*solarFraction).pad(2))
   
   var keFraction = d3.time.seconds(d3.time.day.floor(now), now).length / d3.time.seconds(d3.time.day.floor(now), d3.time.day.ceil(now)).length,interpolateDay = d3.interpolate(day.endAngle()(), 2 * Math.PI * keFraction);
-  if (keFraction === 1) solarFraction = 0
+  if (keFraction === 1) ke = 0
+  document.title = "刻 " + ke.pad(2)
   var ke = Math.floor(100*keFraction);
   keTime.text(ke.pad(2));
   var fen = Math.floor(100*(100*keFraction - ke));
