@@ -1,7 +1,5 @@
-A representation of the current time of year using the Sun, Earth, and Moon.
+A decimal-time clock showing the Sun, Earth, and Moon.
 
-The position of the Earth in orbit around the Sun indicates the hour of year. The Earth itself is a pie chart indicating the second of day. The Moon's position in orbit around the Earth indicates the hour of month. The time is updated every second.
-
-[CodePen demo](http://codepen.io/clayzermk1/pen/zkKmc)
+Inspired by [clayzermk1](http://bl.ocks.org/clayzermk1/9142407) and the Bronze Age / Shang dynasty Chinese decimal time system, where a [刻](en.wikipedia.org/wiki/Ke_(unit))(ke) is a hundredth of a day, and (in some of the calendars) a 分 (fen) forms one hundredth of a 刻.
 
 MIT License
