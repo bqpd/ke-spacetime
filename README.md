@@ -1,6 +1,6 @@
 A decimal-time clock showing the Sun, Earth, and Moon.
 
-[main site](http://keclock.tk/#nowait) | ['new tab' page version](http://keclock.tk/#nowait) | On chrome you'll need to install [a plugin](https://chrome.google.com/webstore/detail/new-tab-redirect/icpgjfneehieebagbmdbhnlpiopdcmna) first.
+[main site](http://keclock.tk/#nowait) | ['new tab' page version](http://keclock.tk/#nowait) (for Chrome you'll need to install [a plugin](https://chrome.google.com/webstore/detail/new-tab-redirect/icpgjfneehieebagbmdbhnlpiopdcmna) first)
 
 Forked from [clayzermk1][1] and inspired by the unit [刻][2](ke) from the Chinese decimal time system of the Shang dynasty / Bronze Age.
 
