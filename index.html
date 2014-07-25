@@ -73,12 +73,12 @@ var solarTime = svg.append("text")
     .text("year"),
   lunarTime = svg.append("text")
     .attr("class", "smallclock")
-    .attr("x", 315)
+    .attr("x", 365)
     .attr("dominant-baseline", "central")
     .style("font-weight", 200)
     .style("text-anchor", "end")
     .style("fill", "rgba(150, 150, 150, 0.75)")
-    .text("mon"),
+    .text("month"),
 
   keTime = svg.append("text")
      .attr("class", "bigclock")
@@ -173,6 +173,7 @@ setInterval(function () {
     interpolateMoonOrbitPosition = d3.interpolate(moonOrbitPosition.endAngle()(), 2 * Math.PI * lunarFraction);
   if (lunarFraction === 1) lunarFraction = 0
   lunarTime.text(Math.floor(100*lunarFraction).pad(2));
+  lunarTime.attr("x", 315)
   
   d3.transition().tween("orbit", function () {
     return function (t) {
